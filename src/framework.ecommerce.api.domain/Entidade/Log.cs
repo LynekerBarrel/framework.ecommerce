@@ -1,8 +1,8 @@
-﻿using framework.ecommerce.api.auth.domain.Enum;
-using framework.ecommerce.api.util;
+﻿using framework.ecommerce.auth.domain.Enum;
+using framework.ecommerce.util;
 using System;
 
-namespace framework.ecommerce.api.auth.domain.Entidade
+namespace framework.ecommerce.auth.domain.Entidade
 {
     public class Log
     {

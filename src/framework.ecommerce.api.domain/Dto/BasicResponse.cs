@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace framework.ecommerce.api.auth.domain.Dto.Cliente.Response
+namespace framework.ecommerce.auth.domain.Dto.Cliente.Response
 {
     public class BasicResponse
     {

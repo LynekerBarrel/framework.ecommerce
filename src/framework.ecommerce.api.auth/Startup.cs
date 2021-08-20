@@ -1,5 +1,5 @@
-using framework.ecommerce.api.auth.Configuration;
-using framework.ecommerce.api.auth.Data;
+using framework.ecommerce.auth.Configuration;
+using framework.ecommerce.auth.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace framework.ecommerce.api.auth
+namespace framework.ecommerce.auth
 {
     public class Startup
     {

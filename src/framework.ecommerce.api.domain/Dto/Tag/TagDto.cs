@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using System;
 
-namespace framework.ecommerce.api.auth.domain.Dto.Tag
+namespace framework.ecommerce.auth.domain.Dto.Tag
 {
     public class TagDto
     {

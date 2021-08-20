@@ -1,6 +1,6 @@
-﻿using framework.ecommerce.api.auth.domain.Interface.Context;
+﻿using framework.ecommerce.auth.domain.Interface.Context;
 
-namespace framework.ecommerce.api.auth.domain.Interface.Wow
+namespace framework.ecommerce.auth.domain.Interface.Wow
 {
     public interface IUnitOfWork : IContext
     {

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace framework.ecommerce.api.auth.Migrations
+namespace framework.ecommerce.auth.Migrations
 {
     public partial class init : Migration
     {

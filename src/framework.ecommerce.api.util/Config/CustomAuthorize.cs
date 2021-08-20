@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace framework.ecommerce.api.util.Config
+namespace framework.ecommerce.util.Config
 {
     /// <summary>
     /// CustomAuthorization
@@ -16,7 +16,7 @@ namespace framework.ecommerce.api.util.Config
             return context.User.Identity.IsAuthenticated &&
                    context.User.Claims.Any(c =>
                         (c.Type == ClaimTypes.Role && c.Value == "Administrador") ||
-                        (c.Type == ClaimTypes.Role && c.Value == "Gestor") ||
+                        //(c.Type == ClaimTypes.Role && c.Value == "Gestor") ||
                         (c.Type == claimName && c.Value.Contains(claimValue)));
         }
 

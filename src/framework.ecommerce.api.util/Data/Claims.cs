@@ -3,14 +3,14 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace framework.ecommerce.api.util.Data
+namespace framework.ecommerce.util.Data
 {
     public class Claims : IClaims
     {
         public List<string> GetClaimsFromFile()
         {
             var assembly = typeof(Claims).GetTypeInfo().Assembly;
-            Stream resource = assembly.GetManifestResourceStream("framework.ecommerce.api.util.Data.Claims.json");
+            Stream resource = assembly.GetManifestResourceStream("framework.ecommerce.util.Data.Claims.json");
 
             var regras = ToEncodedString(resource);
 

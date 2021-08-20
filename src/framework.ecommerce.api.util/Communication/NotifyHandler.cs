@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace framework.ecommerce.api.auth.util.Communication
+namespace framework.ecommerce.auth.util.Communication
 {
     public class NotifyHandler : INotifyHandler
     {

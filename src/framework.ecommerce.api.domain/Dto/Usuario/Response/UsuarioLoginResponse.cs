@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace framework.ecommerce.api.auth.domain.dto.usuario.response
+namespace framework.ecommerce.auth.domain.dto.usuario.response
 {
     public class UsuarioLoginResponse
     {

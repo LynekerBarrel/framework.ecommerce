@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{0A28469D-1502-471E-AB5E-D97ACEEFD5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "framework.ecommerce.api.auth", "framework.ecommerce.api.auth\framework.ecommerce.api.auth.csproj", "{C106B0B2-5DEC-4D8A-9A74-7279E405BC2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework.ecommerce.auth", "framework.ecommerce.api.auth\framework.ecommerce.auth.csproj", "{C106B0B2-5DEC-4D8A-9A74-7279E405BC2E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework.ecommerce.api.auth.domain", "framework.ecommerce.api.domain\framework.ecommerce.api.auth.domain.csproj", "{2F3648F4-A8B5-4451-9C0C-A56D8C82AD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework.ecommerce.auth.domain", "framework.ecommerce.api.domain\framework.ecommerce.auth.domain.csproj", "{2F3648F4-A8B5-4451-9C0C-A56D8C82AD5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Repository", "4.1 - Repository", "{0FB202A3-60A7-4194-AC22-FAFD40A72B31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{35513B67-B4E4-4774-A6A0-D1A72F11973B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework.ecommerce.api.util", "framework.ecommerce.api.util\framework.ecommerce.api.util.csproj", "{2808448F-6440-46D0-BB62-73EB5C0D8ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework.ecommerce.util", "framework.ecommerce.api.util\framework.ecommerce.util.csproj", "{2808448F-6440-46D0-BB62-73EB5C0D8ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

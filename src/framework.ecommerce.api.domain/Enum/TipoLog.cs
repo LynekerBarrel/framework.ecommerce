@@ -1,4 +1,4 @@
-﻿namespace framework.ecommerce.api.auth.domain.Enum
+﻿namespace framework.ecommerce.auth.domain.Enum
 {
     public enum TipoLog
     {

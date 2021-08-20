@@ -2,12 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using framework.ecommerce.api.auth.Extensions;
-using framework.ecommerce.api.auth.Data;
-using framework.ecommerce.api.auth.Models;
-using framework.ecommerce.api.util.Config;
+using framework.ecommerce.auth.Extensions;
+using framework.ecommerce.auth.Data;
+using framework.ecommerce.auth.Models;
+using framework.ecommerce.util.Config;
 
-namespace framework.ecommerce.api.auth.Configuration
+namespace framework.ecommerce.auth.Configuration
 {
     /// <summary>
     /// IdentityConfig

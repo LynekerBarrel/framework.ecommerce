@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace framework.ecommerce.api.auth.domain.Dto.Base
+namespace framework.ecommerce.auth.domain.Dto.Base
 {
     public class Response<T> where T: class
     {

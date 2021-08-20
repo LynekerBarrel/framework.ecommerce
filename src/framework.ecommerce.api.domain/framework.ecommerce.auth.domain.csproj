@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\framework.ecommerce.api.util\framework.ecommerce.api.util.csproj" />
+    <ProjectReference Include="..\framework.ecommerce.api.util\framework.ecommerce.util.csproj" />
   </ItemGroup>
 	
 </Project>

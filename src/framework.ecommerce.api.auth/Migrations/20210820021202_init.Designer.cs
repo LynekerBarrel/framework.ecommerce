@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using framework.ecommerce.api.auth.Data;
+using framework.ecommerce.auth.Data;
 
-namespace framework.ecommerce.api.auth.Migrations
+namespace framework.ecommerce.auth.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20210820021202_init")]
@@ -160,7 +160,7 @@ namespace framework.ecommerce.api.auth.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("framework.ecommerce.api.auth.Models.Usuario", b =>
+            modelBuilder.Entity("framework.ecommerce.auth.Models.Usuario", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -238,7 +238,7 @@ namespace framework.ecommerce.api.auth.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("framework.ecommerce.api.auth.Models.Usuario", null)
+                    b.HasOne("framework.ecommerce.auth.Models.Usuario", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -247,7 +247,7 @@ namespace framework.ecommerce.api.auth.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("framework.ecommerce.api.auth.Models.Usuario", null)
+                    b.HasOne("framework.ecommerce.auth.Models.Usuario", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -262,7 +262,7 @@ namespace framework.ecommerce.api.auth.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("framework.ecommerce.api.auth.Models.Usuario", null)
+                    b.HasOne("framework.ecommerce.auth.Models.Usuario", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -271,7 +271,7 @@ namespace framework.ecommerce.api.auth.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("framework.ecommerce.api.auth.Models.Usuario", null)
+                    b.HasOne("framework.ecommerce.auth.Models.Usuario", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

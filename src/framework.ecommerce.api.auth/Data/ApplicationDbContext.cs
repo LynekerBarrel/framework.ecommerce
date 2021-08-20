@@ -1,9 +1,9 @@
-﻿using framework.ecommerce.api.auth.Models;
+﻿using framework.ecommerce.auth.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace framework.ecommerce.api.auth.Data
+namespace framework.ecommerce.auth.Data
 {
     /// <summary>
     /// ApplicationDbContext

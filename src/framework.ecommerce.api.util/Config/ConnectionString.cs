@@ -1,5 +1,5 @@
 ﻿
-namespace framework.ecommerce.api.util.Config
+namespace framework.ecommerce.util.Config
 {
     public class ConnectionString
     {

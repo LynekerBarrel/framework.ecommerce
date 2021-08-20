@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace framework.ecommerce.api.auth.domain.Entidade
+namespace framework.ecommerce.auth.domain.Entidade
 {
     public class Regra : Entity
     {

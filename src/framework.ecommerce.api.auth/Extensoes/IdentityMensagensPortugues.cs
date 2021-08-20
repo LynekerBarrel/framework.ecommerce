@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace framework.ecommerce.api.auth.Extensions
+namespace framework.ecommerce.auth.Extensions
 {
     /// <summary>
     /// IdentityMensagensPortugues

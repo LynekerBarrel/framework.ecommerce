@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "framework.ecommerce.api.auth": {
+    "framework.ecommerce.auth": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

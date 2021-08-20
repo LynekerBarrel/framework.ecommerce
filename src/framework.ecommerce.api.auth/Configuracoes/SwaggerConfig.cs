@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace framework.ecommerce.api.auth.Configuration
+namespace framework.ecommerce.auth.Configuration
 {
     /// <summary>
     /// SwaggerConfig

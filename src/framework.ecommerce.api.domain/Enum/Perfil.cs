@@ -1,13 +1,8 @@
 ﻿
-namespace framework.ecommerce.api.auth.domain.Enum
+namespace framework.ecommerce.auth.domain.Enum
 {
     public enum Perfil
     {
-        Administrador,
-        Contador,
-        Gestor,
-        Recepcionista,
-        Financeiro,
-        Veterinario
+        Administrador
     }
 }

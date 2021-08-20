@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace framework.ecommerce.api.util
+namespace framework.ecommerce.util
 {
     public static class Util
     {

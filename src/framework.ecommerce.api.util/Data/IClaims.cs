@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace framework.ecommerce.api.util.Data
+namespace framework.ecommerce.util.Data
 {
     public interface IClaims
     {

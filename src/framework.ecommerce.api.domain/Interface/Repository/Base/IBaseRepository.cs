@@ -1,10 +1,10 @@
-﻿using framework.ecommerce.api.auth.domain.Dto.Base;
+﻿using framework.ecommerce.auth.domain.Dto.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace framework.ecommerce.api.auth.domain.Interface.Repository.Base
+namespace framework.ecommerce.auth.domain.Interface.Repository.Base
 {
     public interface IBaseRepository<T>
     {

@@ -1,11 +1,11 @@
 ﻿
-using framework.ecommerce.api.auth.domain.Interface.Repository;
+using framework.ecommerce.auth.domain.Interface.Repository;
 using FluentValidation;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace framework.ecommerce.api.auth.domain.dto.usuario.request
+namespace framework.ecommerce.auth.domain.dto.usuario.request
 {
     public class UsuarioOnboardingRequest
     {
@@ -13,7 +13,6 @@ namespace framework.ecommerce.api.auth.domain.dto.usuario.request
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Celular { get; set; }
-        public bool Contratante { get; set; }
 
         public class UsuarioOnboardingRequestValidator : AbstractValidator<UsuarioOnboardingRequest>
         {
@@ -30,9 +29,6 @@ namespace framework.ecommerce.api.auth.domain.dto.usuario.request
                     .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido");
 
                 RuleFor(c => c.Email)
-                    .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido");
-
-                RuleFor(c => c.Contratante)
                     .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido");
 
                 RuleFor(x => x.Email).MustAsync(UsuarioNaoExiste)

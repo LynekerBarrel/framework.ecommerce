@@ -1,5 +1,5 @@
 ﻿
-namespace framework.ecommerce.api.util
+namespace framework.ecommerce.util
 {
     public interface ICorrelationId
     {

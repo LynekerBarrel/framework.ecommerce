@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using framework.ecommerce.api.auth.Models;
-using framework.ecommerce.api.auth.Controllers.Base;
-using framework.ecommerce.api.auth.domain.dto.usuario.request;
-using framework.ecommerce.api.util.Config;
-using framework.ecommerce.api.auth.domain.dto.usuario.response;
-using framework.ecommerce.api.util.Data;
+using framework.ecommerce.auth.Models;
+using framework.ecommerce.auth.Controllers.Base;
+using framework.ecommerce.auth.domain.dto.usuario.request;
+using framework.ecommerce.util.Config;
+using framework.ecommerce.auth.domain.dto.usuario.response;
+using framework.ecommerce.util.Data;
 
-namespace framework.ecommerce.api.auth.Controllers
+namespace framework.ecommerce.auth.Controllers
 {
     /// <summary>
     /// AuthController
@@ -67,7 +67,7 @@ namespace framework.ecommerce.api.auth.Controllers
                 await _userManager.AddClaimsAsync(user, GetCliveClaim(user));
 
                 return CustomResponse(await GerarJwt(user),//, usuarioRegistro.IdEmpresa), 
-                    framework.ecommerce.api.auth.domain.Enum.StatusCodeApi.Created);
+                    framework.ecommerce.auth.domain.Enum.StatusCodeApi.Created);
             }
 
             foreach (var error in result.Errors)

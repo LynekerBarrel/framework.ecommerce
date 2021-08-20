@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 
-namespace framework.ecommerce.api.auth.Models
+namespace framework.ecommerce.auth.Models
 {
     /// <summary>
     /// Usuario

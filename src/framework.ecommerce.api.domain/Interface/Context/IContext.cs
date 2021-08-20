@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace framework.ecommerce.api.auth.domain.Interface.Context
+namespace framework.ecommerce.auth.domain.Interface.Context
 {
     public interface IContext
     {

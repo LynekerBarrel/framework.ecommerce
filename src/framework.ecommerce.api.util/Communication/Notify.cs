@@ -1,5 +1,5 @@
 ﻿
-namespace framework.ecommerce.api.auth.util.Communication
+namespace framework.ecommerce.auth.util.Communication
 {
     public class Notify
     {

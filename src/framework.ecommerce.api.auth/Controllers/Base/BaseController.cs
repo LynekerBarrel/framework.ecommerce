@@ -1,6 +1,6 @@
-﻿using framework.ecommerce.api.auth.domain.Dto.Base;
-using framework.ecommerce.api.auth.domain.Enum;
-using framework.ecommerce.api.util;
+﻿using framework.ecommerce.auth.domain.Dto.Base;
+using framework.ecommerce.auth.domain.Enum;
+using framework.ecommerce.util;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace framework.ecommerce.api.auth.Controllers.Base
+namespace framework.ecommerce.auth.Controllers.Base
 {
     /// <summary>
     /// BaseController

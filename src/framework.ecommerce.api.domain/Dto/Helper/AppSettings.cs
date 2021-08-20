@@ -1,4 +1,4 @@
-﻿namespace framework.ecommerce.api.auth.domain.Dto.Helper
+﻿namespace framework.ecommerce.auth.domain.Dto.Helper
 {
     public class AppSettings
     {

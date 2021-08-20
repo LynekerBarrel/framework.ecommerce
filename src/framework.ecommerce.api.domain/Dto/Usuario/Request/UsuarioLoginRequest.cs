@@ -1,7 +1,7 @@
 ﻿
 using FluentValidation;
 
-namespace framework.ecommerce.api.auth.domain.dto.usuario.request
+namespace framework.ecommerce.auth.domain.dto.usuario.request
 {
     public class UsuarioLoginRequest
     {
